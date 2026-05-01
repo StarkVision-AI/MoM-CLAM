@@ -1,4 +1,35 @@
-# CLAM Model Training Guide
+<h1 align="center">
+🎵 Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning
+</h1>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2512.00621">
+  <img src="https://img.shields.io/badge/arXiv-2512.00621-b31b1b.svg?style=for-the-badge" />
+</a>
+<a href="https://openreview.net/">
+  <img src="https://img.shields.io/badge/TMLR-Under%20Review-blue?style=for-the-badge" />
+</a>
+<a href="https://github.com/your-repo">
+  <img src="https://img.shields.io/badge/Code-Coming%20Soon-black?style=for-the-badge&logo=github" />
+</a>
+</p>
+
+<p align="center">
+<b>Arnesh Batra</b>, Dev Sharma, Krish Thukral, Ruhani Bhatia, Naman Batra, Aditya Gautam
+</p>
+
+<p align="center">
+IIIT Delhi · NSUT · Manipal University Jaipur
+</p>
+
+---
+
+## 📄 Paper
+
+👉 **arXiv:** https://arxiv.org/abs/2512.00621  
+
+> We introduce <b>Melody or Machine (MoM)</b>, a large-scale benchmark (130K+ songs), and <b>CLAM</b>, a dual-stream contrastive framework for detecting synthetic music. The model leverages inconsistencies between vocal and instrumental streams to achieve strong generalization across generators. :contentReference[oaicite:0]{index=0}
+
 
 This README provides comprehensive instructions for setting up and training the CLAM model.
 
