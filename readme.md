@@ -42,15 +42,6 @@ IIIT Delhi · NSUT · Manipal University Jaipur
 ---
 
 
-## 📜 Citation
-
-```bibtex
-@article{batra2025melody,
-  title={Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning},
-  author={Batra, Arnesh and Sharma, Dev and Thukral, Krish and Bhatia, Ruhani and Batra, Naman and Gautam, Aditya},
-  journal={Transactions on Machine Learning Research (TMLR)},
-  year={2025}
-}
 
 This README provides comprehensive instructions for setting up and training the CLAM model.
 
@@ -87,3 +78,14 @@ With features extracted, you're ready to train the CLAM model.
 - Dataset - https://huggingface.co/datasets/anonymous2212/MoM-CLAM-dataset, it contains all the shareable data along with links for other downloadable public content.
 - run "extractors/mertextraction.py" and "extractors/wave2vec2extract.py" and save embeddings in - "ai_generated_music_mert", "ai_generated_music_wav2vec2" and similar for real music using the instructions provided in the extractors file.
 - then run train_triplet_loss.ipynb or triplet_train.py to achieve final results.
+
+
+## 📜 Citation
+
+```bibtex
+@article{batra2025melody,
+  title={Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning},
+  author={Batra, Arnesh and Sharma, Dev and Thukral, Krish and Bhatia, Ruhani and Batra, Naman and Gautam, Aditya},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2025}
+}
