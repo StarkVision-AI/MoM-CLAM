@@ -4,13 +4,16 @@
 
 <p align="center">
 <a href="https://arxiv.org/abs/2512.00621">
-  <img src="https://img.shields.io/badge/arXiv-2512.00621-b31b1b.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/arXiv-2512.00621-b31b1b.svg?style=for-the-badge&logo=arxiv" />
 </a>
-<a href="https://openreview.net/">
-  <img src="https://img.shields.io/badge/TMLR-Under%20Review-blue?style=for-the-badge" />
+<a href="https://openreview.net/forum?id=Ufwes0o2e3">
+  <img src="https://img.shields.io/badge/TMLR-Accepted-blue?style=for-the-badge" />
 </a>
-<a href="https://github.com/your-repo">
-  <img src="https://img.shields.io/badge/Code-Coming%20Soon-black?style=for-the-badge&logo=github" />
+<a href="https://openreview.net/forum?id=Ufwes0o2e3">
+  <img src="https://img.shields.io/badge/OpenReview-Paper-8c1aff?style=for-the-badge" />
+</a>
+<a href="https://github.com/StarkVision-AI/MoM-CLAM">
+  <img src="https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github" />
 </a>
 </p>
 
@@ -24,12 +27,30 @@ IIIT Delhi · NSUT · Manipal University Jaipur
 
 ---
 
-## 📄 Paper
+## 📄 Links
 
-👉 **arXiv:** https://arxiv.org/abs/2512.00621  
+- 📜 **Paper (TMLR / OpenReview):** https://openreview.net/forum?id=Ufwes0o2e3  
+- 📜 **arXiv:** https://arxiv.org/abs/2512.00621  
+- 💻 **Code:** https://github.com/StarkVision-AI/MoM-CLAM  
 
-> We introduce <b>Melody or Machine (MoM)</b>, a large-scale benchmark (130K+ songs), and <b>CLAM</b>, a dual-stream contrastive framework for detecting synthetic music. The model leverages inconsistencies between vocal and instrumental streams to achieve strong generalization across generators. :contentReference[oaicite:0]{index=0}
+---
 
+## 🧠 TL;DR
+
+> We introduce **MoM**, a 130K+ song benchmark, and **CLAM**, a dual-stream contrastive model that detects synthetic music by modeling inconsistencies between vocal and instrumental streams.
+
+---
+
+
+## 📜 Citation
+
+```bibtex
+@article{batra2025melody,
+  title={Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning},
+  author={Batra, Arnesh and Sharma, Dev and Thukral, Krish and Bhatia, Ruhani and Batra, Naman and Gautam, Aditya},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2025}
+}
 
 This README provides comprehensive instructions for setting up and training the CLAM model.
 
